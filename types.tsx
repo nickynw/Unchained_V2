@@ -13,6 +13,11 @@ declare global {
   }
 }
 
+export interface GeoLocation {
+  longitude: number;
+  latitude: number;
+}
+
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Modal: undefined;
